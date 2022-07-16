@@ -6,11 +6,11 @@
 </script>
 
 <header>
-  <a href="/">/\/</a>
+  <a href="/portfolio">/\/</a>
   <nav>
     <a href="#work">Work</a>
     <a href="#contact">Contact</a>
-    <button type="button" class="toggle" on:click={toggle}></button>
+    <button type="button" class="toggle" on:click={toggle} />
   </nav>
 </header>
 

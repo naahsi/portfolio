@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <link rel="preload" href="/fonts/terminal-grotesque-webfont.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/portfolio/fonts/terminal-grotesque-webfont.woff2" as="font" type="font/woff2" crossorigin />
 </svelte:head>
 <Header />
 <main>
@@ -16,10 +16,10 @@
   @font-face {
     font-family: 'Terminal Grotesque';
     src: local('Terminal Grotesque'),
-      url('/fonts/terminal-grotesque-webfont.woff2') format('woff2'),
-      url('/fonts/terminal-grotesque-webfont.woff') format('woff'),
-      url('/fonts/terminal-grotesque-webfont.ttf') format('truetype'),
-      url('/fonts/terminal-grotesque-webfont.eot') format('embedded-opentype');
+      url('/portfolio/fonts/terminal-grotesque-webfont.woff2') format('woff2'),
+      url('/portfolio/fonts/terminal-grotesque-webfont.woff') format('woff'),
+      url('/portfolio/fonts/terminal-grotesque-webfont.ttf') format('truetype'),
+      url('/portfolio/fonts/terminal-grotesque-webfont.eot') format('embedded-opentype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;

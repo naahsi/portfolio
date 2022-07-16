@@ -18,12 +18,6 @@
     }
   });
 
-  async function getWork() {
-    const response = await fetch('work');
-    const data = await response.json();
-    return data;
-  }
-
   function copy() {
     navigator.clipboard.writeText('ishaan.sinhaa@gmail.com')
       .then(() => {
@@ -43,9 +37,7 @@
 <section class="welcome">
   $greeting, $pronoun $verb $noun. $pronoun $verb $conjunction $verb. $verb $preposition $noun.
 </section>
-{#await getWork() then projects}
-  <Portfolio {projects} />
-{/await}
+<Portfolio />
 <Tools />
 <section id="contact">
   <h1>
