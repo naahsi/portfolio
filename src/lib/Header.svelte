@@ -6,7 +6,7 @@
 </script>
 
 <header>
-  <a href="/portfolio">/\/</a>
+  <a href="/">/\/</a>
   <nav>
     <a href="#work">Work</a>
     <a href="#contact">Contact</a>
